@@ -18,13 +18,13 @@ public class Cat
 
     public void meow()
     {
-        weight = weight - 1;
+        weight = weight - 5000;
         System.out.println("Meow");
     }
 
     public void feed(Double amount)
     {
-        weight = weight + amount;
+        weight = weight + 10000;
     }
 
     public void drink(Double amount)
