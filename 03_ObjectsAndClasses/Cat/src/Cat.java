@@ -36,6 +36,10 @@ public class Cat
         }
     }
 
+    public double getFeedamount(Double amount)
+    {
+        return feedamount;
+    }
 
     public void drink(Double amount)
     {

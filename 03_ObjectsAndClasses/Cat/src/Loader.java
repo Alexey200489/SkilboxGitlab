@@ -28,11 +28,11 @@ public class Loader
         Cat sharik = new Cat();
         System.out.println("Sharik weigt: " + sharik.getWeight());
 
-        sharik.feed(150.00);
+        sharik.getFeedamount(150.00);
 
         System.out.println("Sharik weigt: " + sharik.getWeight());
 
-        sharik.feed(100.00);
+        sharik.getFeedamount(100.00);
 
         System.out.println("Sharik weigt: " + sharik.getWeight());
 
