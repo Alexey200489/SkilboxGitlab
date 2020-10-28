@@ -3,7 +3,7 @@ public class Cat
 {
     private double originWeight;
     private double weight;
-
+    private double feedamount;
     private double minWeight;
     private double maxWeight;
 
@@ -22,10 +22,20 @@ public class Cat
         System.out.println("Meow");
     }
 
+    public void pee(int amount)
+    {
+        weight = weight - 7;
+        System.out.println("Smile");
+    }
+
     public void feed(Double amount)
     {
-        weight = weight + 10000;
+        weight = weight + feedamount;
+        {
+            return;
+        }
     }
+
 
     public void drink(Double amount)
     {
