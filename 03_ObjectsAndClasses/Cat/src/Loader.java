@@ -12,8 +12,15 @@ public class Loader
         System.out.println(murka.getStatus());
 
         Cat vasya = new Cat();
-        vasya.feed(23.7);
+
         System.out.println("Vasya weigt: " + vasya.getWeight());
+
+        vasya.feed(150.00);
+        vasya.feed(100.00);
+        System.out.println("Vasya weigt: " + vasya.getWeight());
+
+        vasya.getFeedamount();
+        System.out.println("Food eaten: " + vasya.getWeight());
 
         System.out.println(vasya.getStatus());
 
@@ -28,13 +35,7 @@ public class Loader
         Cat sharik = new Cat();
         System.out.println("Sharik weigt: " + sharik.getWeight());
 
-        sharik.getFeedamount(150.00);
-
-        System.out.println("Sharik weigt: " + sharik.getWeight());
-
-        sharik.getFeedamount(100.00);
-
-        System.out.println("Sharik weigt: " + sharik.getWeight());
+        System.out.println(sharik.getStatus());
 
         Cat tuzik = new Cat();
         System.out.println("Tuzik weigt: " + tuzik.getWeight());

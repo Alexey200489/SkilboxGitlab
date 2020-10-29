@@ -30,14 +30,14 @@ public class Cat
 
     public void feed(Double amount)
     {
-        weight = weight + feedamount;
         {
-            return;
+            weight = weight + amount;
         }
     }
 
-    public double getFeedamount(Double amount)
+    public double getFeedamount()
     {
+        weight = getWeight() - originWeight;
         return feedamount;
     }
 
