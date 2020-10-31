@@ -1,6 +1,11 @@
 
 public class Cat {
 
+    public static final int EYES_AMOUNT = 2;
+    public static final double MIN_WEIGT = 1000.00;
+    public static final double MAX_WEIGT = 9000.00;
+
+
     int createNewCat;
     public static int count;
     {
