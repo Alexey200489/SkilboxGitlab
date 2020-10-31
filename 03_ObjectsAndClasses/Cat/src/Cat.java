@@ -1,6 +1,15 @@
 
-public class Cat
-{
+public class Cat {
+
+    int createNewCat;
+    public static int count;
+    {
+      if (createNewCat == count++);
+      System.out.println("New Cat " + count);
+        {
+
+        }
+    }
     private double originWeight;
     private double weight;
     private double feedamount;
@@ -14,6 +23,11 @@ public class Cat
         minWeight = 1000.0;
         maxWeight = 9000.0;
 
+    }
+
+    public double getCount()
+    {
+        return count;
     }
 
     public void meow()

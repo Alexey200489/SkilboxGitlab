@@ -35,10 +35,16 @@ public class Loader
         Cat sharik = new Cat();
         System.out.println("Sharik weigt: " + sharik.getWeight());
 
+        sharik.getCount();
+        System.out.println("Cat count: " + sharik.getCount());
+
         System.out.println(sharik.getStatus());
 
         Cat tuzik = new Cat();
         System.out.println("Tuzik weigt: " + tuzik.getWeight());
+
+        tuzik.getCount();
+        System.out.println("Cat count: " + sharik.getCount());
 
         System.out.println(tuzik.getStatus());
     }
