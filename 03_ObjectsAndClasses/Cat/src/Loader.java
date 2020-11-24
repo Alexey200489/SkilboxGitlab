@@ -47,5 +47,16 @@ public class Loader
         System.out.println("Cat count: " + sharik.getCount());
 
         System.out.println(tuzik.getStatus());
+
+        Cat Kitten = new Cat();
+        System.out.println(Kitten.getMass);
+        Kitten.getMass();
+
     }
+    private static void getKitten()
+    {
+        return;
+    }
+      Cat tihon = new Cat();
+
 }

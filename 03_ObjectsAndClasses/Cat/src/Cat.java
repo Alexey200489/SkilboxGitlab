@@ -4,16 +4,14 @@ public class Cat {
     public static final int EYES_AMOUNT = 2;
     public static final double MIN_WEIGT = 1000.00;
     public static final double MAX_WEIGT = 9000.00;
+    public double getMass;
 
+    boolean isAlive;
 
-    int createNewCat;
     public static int count;
+    // создаю переменную count которая увеличивается на 1 при создании новой кошки
     {
-      if (createNewCat == count++);
-      System.out.println("New Cat " + count);
-        {
 
-        }
     }
     private double originWeight;
     private double weight;
@@ -21,13 +19,19 @@ public class Cat {
     private double minWeight;
     private double maxWeight;
 
+    private String mass;
+
     public Cat()
     {
         weight = 1500.0 + 3000.0 * Math.random();
         originWeight = weight;
         minWeight = 1000.0;
         maxWeight = 9000.0;
+    }
 
+    public Cat(String mass)
+    {
+        return;
     }
 
     public double getCount()
@@ -84,5 +88,14 @@ public class Cat {
         else {
             return "Playing";
         }
+    }
+
+    public void getMass()
+    {
+    }
+
+    public double getKitten()
+    {
+        return weight;
     }
 }
