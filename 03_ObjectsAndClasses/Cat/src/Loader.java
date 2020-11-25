@@ -55,7 +55,7 @@ public class Loader
     private static Cat getKitten()
     {
         return new Cat();
+
     }
-       Cat tihon = new Cat();
 
 }

@@ -29,8 +29,9 @@ public class Cat {
 
     public Cat(String mass)
     {
+        this();
         this.weight = weight;
-        weight = weight - 1100;
+        weight = 1100;
     }
 
     public double getCount()
@@ -91,6 +92,6 @@ public class Cat {
 
     public void getKitten()
     {
-        System.out.println("ТИХОН " + weight);
+        System.out.println("ТИХОН " + this.weight);
     }
 }
