@@ -10,9 +10,7 @@ public class Cat {
 
     public static int count;
     // создаю переменную count которая увеличивается на 1 при создании новой кошки
-    {
 
-    }
     private double originWeight;
     private double weight;
     private double feedamount;
@@ -31,7 +29,8 @@ public class Cat {
 
     public Cat(String mass)
     {
-        return;
+        this.weight = weight;
+        weight = weight - 1100;
     }
 
     public double getCount()
@@ -90,12 +89,8 @@ public class Cat {
         }
     }
 
-    public void getMass()
+    public void getKitten()
     {
-    }
-
-    public double getKitten()
-    {
-        return weight;
+        System.out.println("ТИХОН " + weight);
     }
 }

@@ -3,6 +3,9 @@ public class Loader
 {
     public static void main(String[] args)
     {
+        Cat tihon = new Cat();
+        tihon.getKitten();
+
         Cat murka = new Cat();
         System.out.println("Murka weigt: " + murka.getWeight());
 
@@ -48,15 +51,11 @@ public class Loader
 
         System.out.println(tuzik.getStatus());
 
-        Cat Kitten = new Cat();
-        System.out.println(Kitten.getMass);
-        Kitten.getMass();
-
     }
-    private static void getKitten()
+    private static Cat getKitten()
     {
-        return;
+        return new Cat();
     }
-      Cat tihon = new Cat();
+       Cat tihon = new Cat();
 
 }
