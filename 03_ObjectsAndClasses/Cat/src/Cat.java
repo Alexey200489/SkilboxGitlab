@@ -27,11 +27,11 @@ public class Cat {
         maxWeight = 9000.0;
     }
 
-    public Cat(String mass)
+    public Cat(double newWeight)
+
     {
         this();
-        this.weight = weight;
-        weight = 1100;
+        this.weight = newWeight ;
     }
 
     public double getCount()
