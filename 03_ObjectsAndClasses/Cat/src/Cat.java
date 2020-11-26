@@ -5,8 +5,19 @@ public class Cat {
     public static final double MIN_WEIGT = 1000.00;
     public static final double MAX_WEIGT = 9000.00;
     public double getMass;
+    public String color;
 
-    boolean isAlive;
+    public void setColor (String number)
+    {
+        this.color = color;
+    }
+
+    public String getColor()
+    {
+        return color;
+
+
+        boolean isAlive;
 
     public static int count;
     // создаю переменную count которая увеличивается на 1 при создании новой кошки

@@ -48,7 +48,7 @@ public class Car
         return hasVehicle;
     }
 
-    public void setisSpecial (boolean isSpecial)
+    public void setIsSpecial (boolean isSpecial)
     {
         this.isSpecial = isSpecial;
     }
