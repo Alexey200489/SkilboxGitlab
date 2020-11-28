@@ -2,10 +2,15 @@
 public class Cat {
 
     public static final int EYES_AMOUNT = 2;
-    public static final double MIN_WEIGT = 1000.00;
-    public static final double MAX_WEIGT = 9000.00;
+    public static final double MIN_WEIGHT = 1000.00;
+    public static final double MAX_WEIGHT = 9000.00;
     public double getMass;
     public String color;
+
+    public boolean isWeightNormal()
+    {
+        return (weight > MIN_WEIGHT && weight < MAX_WEIGHT);
+    }
 
     public void setColor (String number)
     {
@@ -15,7 +20,7 @@ public class Cat {
     public String getColor()
     {
         return color;
-
+    }
 
         boolean isAlive;
 
@@ -32,6 +37,7 @@ public class Cat {
 
     public Cat()
     {
+        new Cat(count++);
         weight = 1500.0 + 3000.0 * Math.random();
         originWeight = weight;
         minWeight = 1000.0;

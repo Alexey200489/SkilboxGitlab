@@ -18,7 +18,7 @@ public class Loader
 
         System.out.println("Vasya weigt: " + vasya.getWeight());
 
-        vasya.feed(150.00);
+        vasya.feed(6000.00);
         vasya.feed(100.00);
         System.out.println("Vasya weigt: " + vasya.getWeight());
 
